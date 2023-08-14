@@ -8,7 +8,6 @@ public class Portfolio {
 
 	@Id
     @GeneratedValue()
-	@OneToMany
     private long portfolioId;
 	
 	@Id
