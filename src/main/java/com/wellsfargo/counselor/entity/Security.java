@@ -8,7 +8,6 @@ public class Security {
 
 	@Id
     @GeneratedValue()
-	@ManyToOne
     private long securityId;
 	
 	@Id
