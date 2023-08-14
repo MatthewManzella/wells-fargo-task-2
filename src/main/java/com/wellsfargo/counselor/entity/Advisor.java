@@ -8,7 +8,6 @@ public class Advisor {
 
     @Id
     @GeneratedValue()
-    @OneToMany
     private long advisorId;
 
     @Column(nullable = false)
