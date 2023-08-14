@@ -7,7 +7,6 @@ public class Client {
 	
 	@Id
     @GeneratedValue()
-	@OneToMany
     private long clientId;
 	
 	@Id
